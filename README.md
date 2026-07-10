@@ -60,7 +60,7 @@ flutter run
 ---
 
 ## Assumptions
-* **API Authentication**: The API key (`rlN5zr6YKn1MKvqCJu8s`) provided in the Postman collection is valid and authorized to create and join meeting rooms.
+* **API Authentication**: The API key (`qxsm2peuW5ZiMz5Nq7DS`) provided in the Postman collection is valid and authorized to create and join meeting rooms.
 * **1:1 Call Flow**: User A (Agent) hosts the meeting, copies the generated Meeting ID, and shares it with User B (Client/Agent) who enters the ID to join the same call.
 
 ---

@@ -49,14 +49,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
-  dots_indicator:
-    dependency: transitive
-    description:
-      name: dots_indicator
-      sha256: "2a53e0321a3f0d87e38ef30f6e9ff1deb5d6c0e2c5708e057d26cdaa94a95f10"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.0"
   eggnstone_amazon_chime:
     dependency: "direct main"
     description:
@@ -78,14 +70,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_aws_chime:
-    dependency: "direct main"
-    description:
-      name: flutter_aws_chime
-      sha256: bf2cbdf549f6363cabf88c3dd78d84e44379a30aeadcc08f2b12fdfb145584bb
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0+1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -256,14 +240,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.5+1"
-  rxdart:
-    dependency: transitive
-    description:
-      name: rxdart
-      sha256: "0c7c0cedd93788d996e33041ffecda924cc54389199cde4e6a34b440f50044cb"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.27.7"
   sky_engine:
     dependency: transitive
     description: flutter

@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ChimeApi {
   static const String baseUrl = 'https://assess.hipster-dev.com/api';
-  static const String defaultApiKey = 'rlN5zr6YKn1MKvqCJu8s';
+  static const String defaultApiKey = 'qxsm2peuW5ZiMz5Nq7DS';
 
   static Map<String, String> _getHeaders(String apiKey) => {
         'Content-Type': 'application/json',

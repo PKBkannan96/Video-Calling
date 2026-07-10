@@ -23,7 +23,7 @@ class MeetingProvider with ChangeNotifier {
   bool _isMicMuted = false;
   bool _isCameraEnabled = true;
 
-  String _apiKey = 'rlN5zr6YKn1MKvqCJu8s';
+  String _apiKey = 'qxsm2peuW5ZiMz5Nq7DS';
 
   final List<String> _eventLogs = [];
 
