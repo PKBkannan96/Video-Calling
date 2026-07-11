@@ -386,6 +386,14 @@ class _MeetingScreenState extends State<MeetingScreen> {
                           color: !provider.isCameraEnabled ? AppTheme.errorRed : AppTheme.darkBorder,
                           onPressed: () => provider.toggleCamera(),
                         ),
+
+                        // Flip Camera
+                        _buildControlButton(
+                          icon: Icons.flip_camera_ios_rounded,
+                          label: 'Flip',
+                          color: provider.isCameraEnabled ? AppTheme.darkBorder : AppTheme.darkBorder.withOpacity(0.3),
+                          onPressed: provider.isCameraEnabled ? () => provider.switchCamera() : () {},
+                        ),
                       ],
                     ),
                   ),

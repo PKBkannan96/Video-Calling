@@ -295,6 +295,20 @@ class MeetingProvider with ChangeNotifier {
     }
   }
 
+  /// Switches between front and back camera.
+  Future<void> switchCamera() async {
+    if (_status == MeetingStatus.connected || _status == MeetingStatus.joining) {
+      if (_isCameraEnabled) {
+        logEvent('Switching camera...');
+        try {
+          await _chimeService.switchCamera();
+        } catch (e) {
+          logEvent('Error switching camera: $e');
+        }
+      }
+    }
+  }
+
   /// Leaves the meeting and resets the state.
   Future<void> leaveMeeting() async {
     if (_status == MeetingStatus.idle) return;

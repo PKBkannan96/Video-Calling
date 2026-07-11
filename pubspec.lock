@@ -52,10 +52,9 @@ packages:
   eggnstone_amazon_chime:
     dependency: "direct main"
     description:
-      name: eggnstone_amazon_chime
-      sha256: "88e4ad070ab8e66257d52b90659aacab2632e9a609244dc57a0023af4c2d83ea"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/eggnstone_amazon_chime"
+      relative: true
+    source: path
     version: "4.2.1"
   fake_async:
     dependency: transitive

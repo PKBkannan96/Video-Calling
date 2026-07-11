@@ -80,6 +80,11 @@ class ChimeService {
     await Chime.audioVideoStopLocalVideo();
   }
 
+  /// Switches between front and back camera.
+  Future<void> switchCamera() async {
+    await Chime.switchCamera();
+  }
+
   /// Mutes local microphone.
   Future<void> mute() async {
     await Chime.mute();
